@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.search{
+    display: block;
+    margin-top: 10px;
+    width: 45px;
+    height: 20px;
+    border-radius: 80%;
+    border-color: aqua;
+    border-style:double;
+    padding: 5px;
+    color: aqua;
+    background-color: whitesmoke;
+}
+.plus{
+    display: block;
+    margin: top 10px;
+    margin-left:15px;
+    width: 18px;
+    height: 18px;
+    border-radius:50%;
+    background-color:teal;
+    color: white;
+    text-align: center;
+}
