@@ -1,28 +1,37 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin:20px;
+    padding:20px;
 }
 
 .search{
-    display: block;
+    display:inline-block;
     margin-top: 10px;
-    width: 45px;
-    height: 20px;
-    border-radius: 80%;
+    text-align: center;
+    border: radius 80%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    padding: 10px 20px;
     border-color: aqua;
-    border-style:double;
-    padding: 5px;
+    border-style:solid;
+    padding-top: 3px;
+    padding-bottom:3px;
     color: aqua;
     background-color: whitesmoke;
 }
 .plus{
     display: block;
-    margin: top 10px;
-    margin-left:15px;
-    width: 18px;
-    height: 18px;
     border-radius:50%;
     background-color:teal;
     color: white;
     text-align: center;
+}
+.create{
+    box-shadow: 10px 5px 5px black;
+    width: 140px;
+    border-style:solid;
+    border-color:black;
+    color: white;
+    background-color: lightskyblue;
 }
