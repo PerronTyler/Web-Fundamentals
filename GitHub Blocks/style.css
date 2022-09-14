@@ -1,0 +1,34 @@
+*{
+    background-color: aliceblue;
+}
+h1{
+    display: block;
+    color: slategray;
+    text-align: center;
+    width: 100%;
+}
+.octocats {
+    margin:40px;
+    padding:40px;
+}
+.define_size{
+    height:200px;
+    margin:40px;
+}
+#top_row_cats {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: skyblue;
+}
+
+#middle_row_cats {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: salmon;
+}
+
+#bottom_row_cats {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite ;
+}
