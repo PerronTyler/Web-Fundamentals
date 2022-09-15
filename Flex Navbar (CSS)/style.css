@@ -1,23 +1,30 @@
+body{
+    font-family:"Roboto", serif
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 .nav{
     background-color: slategray;
-    display:inline-block;
+    border-color: whitesmoke;
+    display:flex;
     width: 100%;
-    vertical-align: top;
+    justify-content: space-between;
+    color: white;
+
 }
 #nav_title{
-    display:inline-block;
-    vertical-align: top;
-    background-color: slategray;
+    display: flex;
+    margin:20px;
+    padding:20px;
+    
+    
 }
 .nav-links{
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: row;
+    display: flex;
+    color: white;
+
 
 }
 li{
@@ -28,4 +35,15 @@ ul{
     list-style-type: none;
     margin:0;
     padding:0;
+}
+.btn{
+    box-shadow: 10px 5px 5px black;
+    width: 140px;
+    border-style:solid;
+    border-color:black;
+    color: white;
+    background-color: lightskyblue;
+}
+a{
+    color: white;
 }
