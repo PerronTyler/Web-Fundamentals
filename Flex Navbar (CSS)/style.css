@@ -4,8 +4,9 @@
 }
 .nav{
     background-color: slategray;
-    display:flex;
+    display:inline-block;
     width: 100%;
+    vertical-align: top;
 }
 #nav_title{
     display:inline-block;
@@ -20,8 +21,6 @@
 
 }
 li{
-    display: inline-block;
-    vertical-align: top;
     margin:20px;
     padding:20px;
 }
