@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: slategray;
+    display:flex;
+    width: 100%;
+}
+#nav_title{
+    display:inline-block;
+    vertical-align: top;
+    background-color: slategray;
+}
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+li{
+    display: inline-block;
+    vertical-align: top;
+    margin:20px;
+    padding:20px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
