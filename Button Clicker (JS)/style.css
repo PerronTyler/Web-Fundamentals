@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav_bar{
+    background-color: lightgray;
+    width: 47%;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#search{
+    border-color: black;
+    border-style: solid;
+    
+}
+#login{
+    background-color: rgb(0, 177, 236);
+    color: black;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 2px 2px;
+}
+.entry{
+    width: 30%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.def{
+    width: 15%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+.column_1{
+    width:45%;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.column_2{
+    width:45%;
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.italics{
+    font-style: italic;
+}
+.likes{
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 2px 2px;
+}
+.add_definition{
+    background-color: lightseagreen;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 80%;
+}
+.bold{
+    font-weight:bolder;
+}
