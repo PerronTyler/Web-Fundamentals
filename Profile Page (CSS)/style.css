@@ -89,7 +89,8 @@ li{
     /* width:500px; */
 }
 .top_box{
-    width: 400px;
+    /* width: 400px; */
+    margin-top: 20px;
     background-color: mediumaquamarine;
     height: 100px;
     /* margin-left: 80px;
@@ -99,7 +100,7 @@ li{
     border-color: lightgray;
     border-style: solid;
     border-top: none;
-    width: 395px;
+    /* width: 395px; */
     /* margin-left: 80px; */
 }
 .right_boxes{
