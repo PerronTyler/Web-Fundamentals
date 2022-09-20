@@ -57,12 +57,13 @@
     padding: 10px;
     justify-content: center;
     text-align: center;
+    margin-top: 30px;
 }
 .italics{
     font-style: italic;
 }
 .likes{
-    background-color: lightyellow;
+    background-color: rgb(189, 189, 87);
     border-style: solid;
     border-color: black;
     box-shadow: 2px 2px;
